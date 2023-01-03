@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+*{
+  margin:0px;
+}
+.upperpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+input{
+  width:220px;
+  height:40px;
+  margin-right: 15px;
+  border:2px solid black;
+  border-radius:5%;
+
+}
+select{
+  width:220px;
+  height:45px;
+  border:2px solid black;
+  border-radius:5%;
+}
+button{
+  width:200px;
+  height: 40px;
+  background-color: #1e1d1cde;
+  color:white;
+  border:2px solid black;
+  border-radius:5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-left: 670px;
+  margin-top: 10px;
+}
+.lowerpart{
+display:flex;
+width:100%;
+}
+.lhs{
+  width:50%;
+}
+.rhs{
+  width:50%;
+}
+table{
+  width:100%;
+}
+.income{
+  height:50px;
+  width:100%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  border:5px;
+  font-family: 'Roboto', sans-serif;
+}
+.lightgreen{
+  background-color:lightgreen;
+  font-family: 'Roboto', sans-serif;
+}
+.red{
+  background-color: #d53333;
+  font-family: 'Roboto', sans-serif;
+}
+.expense{
+
+width:100%;
+height:50px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  margin-right:50px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+.table1{
+  transform: translateY(130px);
+}
+.table1 td{
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgreen;
+  text-align: center;
+}
+.table2{
+  transform: translateY(130px);
+
+}
+.table2 td{
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #d53333;
+  text-align: center;
+}
+.tot{
+  background-color: black;
+  color:white;
+  text-align: center;
+  height: 50px;
+}
+.red{
+  height:50px;
+  text-align: center;
+  background-color:red;
+}
+.green{
+  height:50px;
+  text-align: center;
+  background-color: green;
+}
+
+.message{
+  width:100%;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}

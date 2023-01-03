@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./incexp.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="upperpart">
+<input id="inp1" placeholder="Amount" type="text">
+<input id="inp2" placeholder="Item Description" type="text">
+<select  name="" id="select">
+  <option Selected disabled value="">Select</option>
+  <option value="1">Income</option>
+  <option value="2">Expense</option>
+</select>
+</div>
+<button id="btn">Entry</button>
+
+<div class="messsge">
+<h2 id="h2"></h2>
+</div>
+
+<div class="lowerpart">
+  <div class="lhs">
+    <table class="table1" >
+      <tr>
+        <th class="income" colspan="3" >Income</th>
+      </tr>
+      <tr>
+        <td class="lightgreen" colspan="">No.</td>
+        <td class="lightgreen" colspan="">Amount</td>
+        <td  class="lightgreen" colspan="">Items's Description</td>
+      </tr>
+      <tr id="totalincome">
+        <th  class="tot" colspan="3">Total Income: <p id=p1>0</p></th>
+        </tr>
+    </table>
+</div>
+<div class="rhs">
+  <table class="table2" >
+    <tr><th colspan="3" class="expense">Expense</th></tr>
+    <tr>
+      <td class="red" colspan="1">No.</td>
+      <td class="red" colspan="1">Amount</td>
+      <td  class="red" colspan="1">Items's Description</td>
+    </tr>
+    <tr id="totalexpense">
+      <th  class="tot" colspan="3">Total Expense: <p id="p2">0</p></th>
+      </tr>
+  </table>
+</div>
+
+  </div>
+</div>
+
+<script src="./incexp.js"></script>
+</body>
+</html>
